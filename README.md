@@ -72,7 +72,14 @@ Start PostgreSQL service and create a database named `notificationdb`
 ```sql
 psql -U postgres
 
-postgres#= CREATE DATABASE notificationdb;
+postgres=# CREATE DATABASE notificationdb;
+CREATE DATABASE
+
+postgres=# CREATE USER <username> WITH PASSWORD '<password>';
+CREATE ROLE
+
+postgres=# GRANT ALL PRIVILEGES ON DATABASE notificationdb TO <username>;
+GRANT
 ```
 
 ---
