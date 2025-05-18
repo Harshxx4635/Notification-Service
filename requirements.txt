@@ -5,6 +5,6 @@ sqlalchemy
 asyncpg
 pydantic
 python-dotenv
-aio_pika
 aiosmtplib
 twilio
+psycopg2-binary
