@@ -14,6 +14,7 @@ A backend notification API service built using FastAPI that allows sending notif
 - Retrieve notifications using user ID
 - Swagger UI for docs and testing
 
+---
 
 ## Tech Stack
 
@@ -29,12 +30,16 @@ A backend notification API service built using FastAPI that allows sending notif
 
 **Google SMTP:** Service for sending E-Mails
 
+---
 
 ## Prerequisites
 
 - **Python** installed on the system
 - **PostgreSQL** set up on the system
 - **Git** for version control
+
+---
+
 ## Setup
 
 ### 1️. Clone the Project
@@ -57,6 +62,9 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
 ## Database Setup
 
 Start PostgreSQL service and create a database named `notificationdb`
@@ -66,6 +74,9 @@ psql -U postgres
 
 postgres#= CREATE DATABASE notificationdb;
 ```
+
+---
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your `.env` file
@@ -93,6 +104,8 @@ TWILIO_AUTH_TOKEN : From Twilio Dashboard
 TWILIO_PHONE_NUMBER : +123456789
 ```
 
+---
+
 ## Run Locally
 
 Open command prompt in the project directory and run the following command to start the API
@@ -100,6 +113,9 @@ Open command prompt in the project directory and run the following command to st
 ```bash
  uvicorn app.main:app --reload
 ```
+
+---
+
 ## Run the API
 
 ### Send Notification
@@ -153,10 +169,14 @@ Replace `{user_id}` with the target user ID to get their notifications.
     }
 ]
 ```
+
+---
+
 ## Documentation
 
 After running locally, you can access the [Swagger Docs](https://127.0.0.1/8000) for the FastAPI documentation
 
+---
 
 ## Troubleshooting
 
