@@ -35,7 +35,7 @@ A backend notification API service built using FastAPI that allows sending notif
 ## Prerequisites
 
 - **Python** installed on the system
-- **PostgreSQL** set up on the system
+- **PostgreSQL** set up and running on the system
 - **Git** for version control
 
 ---
