@@ -101,7 +101,7 @@ EMAIL_PORT=587
 ```env
 TWILIO_ACCOUNT_SID=<From Twilio Account Dashboard>
 TWILIO_AUTH_TOKEN=<From Twilio Account Dashboard>
-TWILIO_PHONE_NUMBER : +123456789
+TWILIO_PHONE_NUMBER=+123456789
 ```
 
 ---
