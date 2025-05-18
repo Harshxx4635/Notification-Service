@@ -3,6 +3,7 @@
 
 A backend notification API service built using FastAPI that allows sending notifications via Email, SMS, and In-App methods through PostgreSQL database.
 
+---
 
 ## Features
 
