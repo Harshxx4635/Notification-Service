@@ -99,8 +99,8 @@ EMAIL_PORT=587
 #### Twilio Variables (Get from console.twilio.com)
 
 ```env
-TWILIO_ACCOUNT_SID : From Twilio Dashboard
-TWILIO_AUTH_TOKEN : From Twilio Dashboard
+TWILIO_ACCOUNT_SID=<From Twilio Account Dashboard>
+TWILIO_AUTH_TOKEN=<From Twilio Account Dashboard>
 TWILIO_PHONE_NUMBER : +123456789
 ```
 
