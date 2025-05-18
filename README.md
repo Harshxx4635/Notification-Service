@@ -18,17 +18,17 @@ A backend notification API service built using FastAPI that allows sending notif
 
 ## Tech Stack
 
-**FastAPI:** Web Framework
+- **FastAPI:** Web Framework
 
-**PostgreSQL:** Storing notification data
+- **PostgreSQL:** Storing notification data
 
-**SQLAlchemy:** ORM for database management
+- **SQLAlchemy:** ORM for database management
 
-**Pydantic:** Used for data validation
+- **Pydantic:** Used for data validation
 
-**Twilio:** Service for sending SMS
+- **Twilio:** Service for sending SMS
 
-**Google SMTP:** Service for sending E-Mails
+- **Google SMTP:** Service for sending E-Mails
 
 ---
 
