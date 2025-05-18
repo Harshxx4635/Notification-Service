@@ -104,6 +104,8 @@ TWILIO_AUTH_TOKEN=<From Twilio Account Dashboard>
 TWILIO_PHONE_NUMBER=+123456789
 ```
 
+### Properly set up all the environment variables in order to avoid errors while using the API.
+
 ---
 
 ## Run Locally
