@@ -114,6 +114,8 @@ Open command prompt in the project directory and run the following command to st
  uvicorn app.main:app --reload
 ```
 
+By default it will run on `http://127.0.0.1:8000`
+
 ---
 
 ## Run the API
@@ -174,7 +176,7 @@ Replace `{user_id}` with the target user ID to get their notifications.
 
 ## Documentation
 
-After running locally, you can access the Swagger Docs at [https://127.0.0.1:8000/docs](https://127.0.0.1:8000/docs) for the FastAPI documentation
+After running locally, you can access the Swagger Docs at [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) for the FastAPI documentation
 
 ---
 
