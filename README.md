@@ -174,7 +174,7 @@ Replace `{user_id}` with the target user ID to get their notifications.
 
 ## Documentation
 
-After running locally, you can access the [Swagger Docs](https://127.0.0.1/8000) for the FastAPI documentation
+After running locally, you can access the Swagger Docs at [https://127.0.0.1:8000/docs](https://127.0.0.1:8000/docs) for the FastAPI documentation
 
 ---
 
