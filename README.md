@@ -1,4 +1,3 @@
-
 # Notification Service
 
 A backend notification API service built using FastAPI that allows sending notifications via Email, SMS, and In-App methods through PostgreSQL database.
@@ -12,6 +11,7 @@ A backend notification API service built using FastAPI that allows sending notif
     - SMS
     - In-App
 - Retrieve notifications using user ID
+- Retries for failed notifications
 - Swagger UI for docs and testing
 
 ---
